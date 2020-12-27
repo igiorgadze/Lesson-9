@@ -1,0 +1,77 @@
+/* HEADER*/
+.header-wrapper {
+    background-image: url("../img/head.jpg");
+    width: 100%;
+    height: 324px;
+    position: relative;
+}
+.zetta-hotels {
+    position: absolute;
+    top: 30px;
+    left: 139px;
+    color: white;
+    font-weight: 900;
+    font-family: Poppins sans-serif;
+}
+.about {
+    position: absolute;
+    top: 146px;
+    left: 139px;
+    color: white;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: Poppins sans-serif;
+    text-transform: capitalize;
+}
+.home {
+    position: absolute;
+    color: white;
+    top: 219px;
+    left: 139px;
+    font-family: Poppins sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.home::after {
+    content: '';
+    width: 2px;
+    height: 19px;
+    color: white;
+    margin-left: 15px;
+    background-color: white;
+    position: absolute;
+}
+.about-2 {
+    position: absolute;
+    color: white;
+    font-family: Poppins sans-serif;
+    top: 219px;
+    left: 212px;
+    margin-left: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navigator {
+    position: absolute;
+    top: 32px;
+    right: 138px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li {
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: Poppins sans-serif;
+    font-weight: 600;
+}
+.nav-li:hover {
+    background-color: #c9cbff;
+    padding: 5px;
+
+}
+.nav-li a {
+    color: white;
+}
+
