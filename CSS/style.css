@@ -348,12 +348,7 @@
 .fab {
     font-size: 20px;
 }
-.far,
-.fas,
-.fal {
-    color: #5863F8;
-    font-size: 20px;
-}
+
 .fb-tweet-google {
     display: flex;
     margin-top: 20px;
